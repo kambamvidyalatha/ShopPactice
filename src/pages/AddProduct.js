@@ -158,7 +158,7 @@ const AddProduct = () => {
                 </div>
                 <div className="col-lg-4">
                     <div className="form-group">
-                        <label >Product Size:</label>
+                        <label style={{'color':'red'}}>Product Size:</label>
                         <select className="form-control" ref={productSize} id="productSize">
                             <option>Select</option>
                             <option>S</option>
